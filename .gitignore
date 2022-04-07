@@ -1,0 +1,9 @@
+**/*.dvi
+**/*.ps
+**/*.log
+**/*.aux
+**/*.dvi
+**/*.dvi
+**/bin/
+**/obj/
+tex/pages.*
