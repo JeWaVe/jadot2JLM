@@ -33,7 +33,7 @@ namespace generator
 
         static readonly string[] mesures = new string[] {
             "l'instauration de la règle verte",
-            "le 100% renouvelable",
+            "le 100\\% renouvelable",
             "la cantine bio et gratuite",
             "le bien-être animal",
             "une production alimentaire locale",
