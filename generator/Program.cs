@@ -21,16 +21,6 @@ namespace generator
 \end{{landscape}}
 \newpage";
 
-        const string head = @"\documentclass[french,20pt]{{article}}
-\usepackage{{babel}}
-\usepackage[utf8]{{inputenc}}
-\usepackage[T1]{{fontenc}}
-\usepackage{{lscape}}
-\usepackage{{anyfontsize}}
-\usepackage[margin=0pt]{{geometry}}
-
-";
-
         static readonly string[] mesures = new string[] {
             "l'instauration de la règle verte",
             "le 100\\% renouvelable",
@@ -73,7 +63,6 @@ namespace generator
         {
             using (StreamWriter writer = new StreamWriter("../tex/pages.tex"))
             {
-                var random = new Random();
                 for (int i = 0; i < 100; ++i)
                 {
                     var person = GetPerson();
